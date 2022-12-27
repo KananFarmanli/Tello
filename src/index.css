@@ -1,0 +1,86 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Roboto:wght@400;500;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+   @layer base {
+  html {
+    background-color : #f5f5f5;
+  }
+}   
+
+
+
+
+.my-container {
+  @apply px-[15px] sm:px-[20px] md:px-[50px] lg:px-[75px] max-w-[1366px] mx-auto
+}
+
+/* header-> main -> search */
+.search::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+}
+
+/* Inputs and Buttons */
+
+/* [class*="__input"] {
+  @apply block border-[1px] rounded-input border-solid border-[#f3f3f3] text-sm h-10 px-4 placeholder:text-gray-darker;
+}
+[class*="__btn"]{
+  @apply leading-4 rounded-btn  font-bold bg-secondary text-[#ffff] py-3 min-w-min w-full max-w-[156px] text-sm hover:bg-secondary/90
+} */
+
+
+
+/* hr {
+  @apply border-success;
+}
+
+
+.border-underline {
+  @apply border-b-[1px] border-secondary
+}
+
+.custom-number-input button:focus {
+  outline: none !important;
+}
+
+ */
+
+/*  All you need for customized checkbox square, label and checkmark */
+/*    TEMPLATE:
+<div>
+    <input  className='checkbox appearance-none' id='check' type="checkbox"  />
+    <label className='checkbox__label flex' htmlFor="check"> <div className="checkbox__square"></div> Save </label>
+</div>
+   */
+/* .checkbox__square {
+  @apply relative w-[10px] h-[10px] border-secondary border-solid border-[1px] ml-[1px] mr-[10px] rounded-[1px]
+}
+.checkbox__label {
+  @apply flex items-center
+}
+.checkbox:checked + .checkbox__label .checkbox__square:before {
+  @apply content-['\2713'] text-[8px] font-bold absolute top-1/2 left-1/2 -translate-y-2/4 -translate-x-2/4 text-secondary
+ 
+} */
+
+/* All you need for dropdown selection */
+
+/* .option__selected{
+  @apply bg-white border-[1px] border-solid border-[#f3f3f3] flex items-center justify-between text-sm h-10 px-4 rounded-input
+}
+.option__list{
+  @apply  bg-white border-[1px] border-solid border-[#f3f3f3] flex flex-col gap-2 py-2 text-sm
+}
+
+.radio {
+  @apply hidden
+}
+
+.option__label{
+  @apply py-2 px-4 hover:bg-secondary hover:text-white block overflow-auto
+}
+ */
