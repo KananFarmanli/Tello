@@ -1,6 +1,6 @@
 import React from "react";
-import Copyright from "./Footer/Copyright";
-import FooterMain from "./Footer/FooterMain";
+import Copyright from "./Copyright";
+import FooterMain from "./FooterMain";
 
 const Footer = () => {
   return (
