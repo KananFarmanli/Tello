@@ -10,9 +10,12 @@
   },
   "dependencies": {
     "body-scroll-lock": "^4.0.0-beta.0",
+    "nuka-carousel": "^5.4.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.6.1",
+    "react-slick": "^0.29.0",
+    "slick-carousel": "^1.8.1",
     "vite-plugin-svgr": "^2.4.0"
   },
   "devDependencies": {
