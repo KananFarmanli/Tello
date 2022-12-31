@@ -32,14 +32,14 @@ const HeaderMain = ({burgerLogic, setBurgerLogic}) => {
 
       <form
         action=""
-        className=" order-2   lg:order-none  lg:max-w-[592px] py-[10px] px-4 w-full flex bg-mutedBg h-[40px] rounded-lg border border-muted-dark items-center"
+        className=" order-2   lg:order-none  lg:max-w-[592px] py-[10px] px-4 w-full flex bg-white h-[40px] rounded-lg border border-muted-dark items-center"
       >
         <button>
           <Search />
         </button>
         <input
           type="search"
-          className="search bg-mutedBg px-6 h-[20px]  w-full    "
+          className="search bg-white px-6 h-[20px]  w-full    "
           placeholder="Axtaris..."
         />
         <button>

@@ -41,9 +41,27 @@
   
 }
 
+.slider-container{
+  margin-bottom:40px;
+}
+
+
 .bg-styling {
   @apply  bg-primaryBg bg-center bg-cover sm:bg-contain  bg-no-repeat w-screen h-[450px]  sm:h-[350px] md:h-[500px] lg:h-[652px] overflow-hidden ;
 }
+
+/* for opera safari chrome */
+.invisible-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+/*for IE, Edge and Firefox */
+.invisible-scroll {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+
 
 /* .slider-control-bottomcenter ul {
 display: flex;

@@ -16,7 +16,8 @@ function Slider2() {
         infinite: true,
         speed: 2000,
         autoplaySpeed: 2000,
-    
+   
+        arrows: false,
         slidesToShow: 6,
         slidesToScroll: 1,
        
@@ -97,72 +98,3 @@ function Slider2() {
 }
 
 export default Slider2;
-
-
-/* const settings = {
-    dots: true,
-    infinite: true,
-    slidesToShow: 6,
-    slidesToScroll: 1,
-    autoplay: true,
-    speed: 2000,
-    autoplaySpeed: 2005,
-    cssEase: "linear"
-  };
- */
-
-        {/* <Carousel
-     withoutControls={true}
-        wrapAround={true}
-        swiping={true}
-        autoplay={true}
-        cellAlign={'right'}
-        cellSpacing={4}
-        slidesToShow={7}
-        autoplayInterval={5000}
-        disableEdgeSwiping={false}
-        pauseOnHover={true}
-        speed={1000}
-        style={{
-            paddingTop:"20px",
-            paddingBottom:"20px",
-         
-            // display:"flex",
-            // justifyContent:"center",
-            // alignItems:"center" 
-            
-    }}
-        defaultControlsConfig={{
-        pagingDotsClassName:"hidden",
-          prevButtonStyle: {
-            display: "none",
-          },
-          nextButtonStyle: {
-            display: "none",
-          },
-          
-         
-        }}
-      >
-        <div className="pl-4">
-             <img  src="../src/assets/imgs/Slider2/toshiba.svg" alt="" />
-        </div>
-        <div className="">
-             <img   src="../src/assets/imgs/Slider2/acer.svg" alt="" />
-        </div>
-        <div className="">
-             <img   src="../src/assets/imgs/Slider2/philips.svg" alt="" />
-        </div>
-        <div className="">
-             <img   src="../src/assets/imgs/Slider2/bosch.svg" alt="" />
-        </div>
-        <div className="">
-             <img   src="../src/assets/imgs/Slider2/electrolux.svg" alt="" />
-        </div>
-        <div className="">
-             <img   src="../src/assets/imgs/Slider2/hp.svg" alt="" />
-        </div>
-        <div className="">
-             <img  src="../src/assets/imgs/Slider2/gorenje.svg" alt="" />
-        </div>
-      </Carousel> */}

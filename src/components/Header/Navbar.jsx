@@ -11,7 +11,7 @@ const Navbar = ({ burgerLogic }) => {
         burgerLogic ? " left-0 transition-all " : " -left-[550px] transition-all lg:transition-none"
       }`}
     >
-      <ul className="flex flex-col lg:flex-row gap-6 justify-between  px-[15px]  sm:px-[20px]  md:px-[50px] lg:px-0 text-xl lg:text-sm pt-9 lg:pt-0 border-t border-t-success lg:border-none ">
+      <ul className=" flex flex-col lg:flex-row gap-6 justify-between  px-[15px]  sm:px-[20px]  md:px-[50px] lg:px-0 text-xl lg:text-sm pt-9 lg:pt-0 border-t border-t-success lg:border-none ">
         <li className="">
           <NavLink>Yeni</NavLink>
         </li>

@@ -13,6 +13,7 @@ const Slider = () => {
         pauseOnHover={true}
         speed={500}
         defaultControlsConfig={{
+          containerClassName:"df",
           prevButtonStyle: {
             display: "none",
           },

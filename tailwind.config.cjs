@@ -13,6 +13,9 @@ module.exports = {
     },
 
     extend: {
+      dropShadow: {
+        'my-shadow': '0px 4px 24px rgba(130, 130, 130, 0.16)',
+      },
       colors: {
         
         primary: {
@@ -44,6 +47,7 @@ module.exports = {
         },
         mutedBg: {
           DEFAULT:"#F2F2F2",
+          derker:"#E0E0E0",
         },
         info: {
           DEFAULT:"#2D9CDB",
