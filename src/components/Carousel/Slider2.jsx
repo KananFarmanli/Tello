@@ -1,8 +1,16 @@
 import React from 'react';
-import Carousel from "nuka-carousel/lib/carousel";
+
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import Slider from 'react-slick';
+
+import Acer from "../../assets/imgs/Slider2/acer.svg"
+import Bosch from "../../assets/imgs/Slider2/bosch.svg"
+import Electrolux from "../../assets/imgs/Slider2/electrolux.svg"
+import Gorenje from "../../assets/imgs/Slider2/gorenje.svg"
+import Hp from "../../assets/imgs/Slider2/hp.svg"
+import Philips from "../../assets/imgs/Slider2/philips.svg"
+import Toshiba from "../../assets/imgs/Slider2/toshiba.svg"
 
 
 
@@ -70,25 +78,25 @@ function Slider2() {
 <Slider {...settings}>
 
 <div className="bg-white  xs:bg-transparent ">
-             <img  className=' h-20 w-full xs:w-full xs:h-[50px] sm:h-[50px]  md:h-[60px] lg:h-[80px]' src="../src/assets/imgs/Slider2/toshiba.svg" alt="" />
+             <img  className=' h-20 w-full xs:w-full xs:h-[50px] sm:h-[50px]  md:h-[60px] lg:h-[80px]' src={Electrolux} alt="" />
         </div>
         <div className="bg-white  xs:bg-transparent ">
-             <img  className=' h-20 w-full xs:w-full xs:h-[50px] sm:h-[50px]  md:h-[60px] lg:h-[80px]' src="../src/assets/imgs/Slider2/acer.svg" alt="" />
+             <img  className=' h-20 w-full xs:w-full xs:h-[50px] sm:h-[50px]  md:h-[60px] lg:h-[80px]' src={Philips}  alt="" />
         </div>
         <div className="bg-white  xs:bg-transparent ">
-             <img  className=' h-20 w-full xs:w-full xs:h-[50px] sm:h-[50px]  md:h-[60px] lg:h-[80px]' src="../src/assets/imgs/Slider2/philips.svg" alt="" />
+             <img  className=' h-20 w-full xs:w-full xs:h-[50px] sm:h-[50px]  md:h-[60px] lg:h-[80px]' src={Acer} alt="" />
         </div>
         <div className="bg-white  xs:bg-transparent ">
-             <img  className=' h-20 w-full xs:w-full xs:h-[50px] sm:h-[50px]  md:h-[60px] lg:h-[80px]' src="../src/assets/imgs/Slider2/bosch.svg" alt="" />
+             <img  className=' h-20 w-full xs:w-full xs:h-[50px] sm:h-[50px]  md:h-[60px] lg:h-[80px]' src={Hp} alt="" />
         </div>
         <div className="bg-white  xs:bg-transparent ">
-             <img  className=' h-20 w-full xs:w-full xs:h-[50px] sm:h-[50px]  md:h-[60px] lg:h-[80px]' src="../src/assets/imgs/Slider2/electrolux.svg" alt="" />
+             <img  className=' h-20 w-full xs:w-full xs:h-[50px] sm:h-[50px]  md:h-[60px] lg:h-[80px]' src={Gorenje} alt="" />
         </div>
         <div className="bg-white  xs:bg-transparent ">
-             <img className=' h-20 w-full xs:w-full xs:h-[50px] sm:h-[50px]  md:h-[60px] lg:h-[80px]'  src="../src/assets/imgs/Slider2/hp.svg" alt="" />
+             <img className=' h-20 w-full xs:w-full xs:h-[50px] sm:h-[50px]  md:h-[60px] lg:h-[80px]'  src={Toshiba} alt="" />
         </div>
         <div className="bg-white  xs:bg-transparent ">
-             <img className=' h-20 w-full xs:w-full xs:h-[50px] sm:h-[50px]  md:h-[60px] lg:h-[80px]' src="../src/assets/imgs/Slider2/gorenje.svg" alt="" />
+             <img className=' h-20 w-full xs:w-full xs:h-[50px] sm:h-[50px]  md:h-[60px] lg:h-[80px]' src={Bosch} alt="" />
         </div>
     
 </Slider>
