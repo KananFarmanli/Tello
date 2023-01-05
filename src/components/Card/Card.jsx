@@ -13,6 +13,7 @@ function Card({name, model, size, color, price, discount}) {
             <div className='space-y-4 text-sm md:text-base '>
                 <p className='flex flex-wrap gap-x-2 '> <span>iPhone</span> <span>13</span> <span> 256 gb</span> <span> midnight</span></p>
                 <p> <span> 1360 $</span> <span></span> </p>
+                
             </div>
         </div>
     );

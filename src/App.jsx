@@ -1,20 +1,22 @@
-import { useState } from 'react'
-import Footer from './components/Footer/Footer'
-import Header from './components/Header/Header'
-import Main from './components/Main/Main'
+import { useState } from "react";
+import { Routes, Route, Link, Navigate } from "react-router-dom";
+import Layout from "./components/Layout";
+import Categories from "./pages/Categories";
+import Home from "./pages/Home";
 
+//import Main from './components/Main-fillterpage/Main'
 
 function App() {
-
-
   return (
-<div className='flex flex-col min-h-screen '>
-<Header />
-<Main/>
-<Footer/>
-</div>
-    
-  )
+    <Routes>
+   
+      <Route path="/" element={<Layout />}>
+        <Route index element={<Home />} />
+        <Route path=":id/:id" element={<Categories />} />
+      </Route>
+    </Routes>
+  );
 }
 
-export default App
+export default App;
+

@@ -61,6 +61,24 @@
   scrollbar-width: none;  /* Firefox */
 }
 
+/* my checkbox */
+
+
+.checkbox__square {
+  @apply relative w-[20px] h-[20px]  bg-success/[.16] border-success border-solid border-[1px] ml-[1px] mr-[10px] rounded-[3px]
+}
+.checkbox__label {
+  @apply flex items-center 
+}
+.checkbox:checked + .checkbox__label .checkbox__square:before {
+  @apply content-['\2713'] text-[10px] font-black absolute top-1/2 left-1/2 -translate-y-2/4 -translate-x-2/4 text-white
+ 
+}
+.checkbox:checked + .checkbox__label .checkbox__square {
+  @apply bg-success
+ 
+}
+
 
 
 /* .slider-control-bottomcenter ul {
